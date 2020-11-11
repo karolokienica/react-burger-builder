@@ -1,9 +1,12 @@
-import classes from './App.css';
+import classes from './App.module.css';
+import Layout from './components/Layout/Layout'
 
 function App() {
   return (
     <div className={classes.App}>
-      
+      <Layout>
+        <p>Test</p>
+      </Layout>
     </div>
   );
 }
